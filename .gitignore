@@ -1,0 +1,19 @@
+# Secrets and local junk
+.env
+.env.*
+.~lock.*
+
+# Python
+__pycache__/
+*.py[cod]
+.Python
+*.egg-info/
+.venv/
+venv/
+
+# Editor / OS
+Thumbs.db
+Desktop.ini
+
+# Everything else in this folder is not part of the minimal sr-bench publish
+# (we stage only explicit paths via git add)
