@@ -1,6 +1,8 @@
-# sr-bench (MathRuleBench Hard)
+# SRBench — Structured Mathematical Reasoning
 
-This repository contains the **MathRuleBench Hard** benchmark dataset (public schema), the **generator script** used to build it, a short **template report**, **per-model LLM response logs** (JSONL), and a **merged table** of gold labels plus rescued extracted answers for grading.
+## Benchmark for Large Language Models
+
+This repository (**sr-bench**) hosts **MathRuleBench Hard**: the public benchmark split (generator + documentation), **per-model LLM response logs** (JSONL), and a **merged grading table** with gold answers and rescued extracted model outputs.
 
 ## Files
 
