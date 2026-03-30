@@ -1,4 +1,4 @@
-# MathRuleBench Hard v1
+# SR Bench v1
 
 - Total questions: 1245
 - Total hard templates: 26
