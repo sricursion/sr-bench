@@ -1,3 +1,7 @@
+# Response logs (not versioned here)
+benchmark_outputs/**/*.jsonl
+benchmark_outputs_mistral/**/*.jsonl
+
 # Secrets and local junk
 .env
 .env.*
