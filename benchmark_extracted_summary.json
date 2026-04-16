@@ -1,0 +1,187 @@
+{
+  "merged_output": "benchmark_merged_extracted.csv",
+  "summary_output": "benchmark_extracted_summary.json",
+  "models": [
+    {
+      "model": "alibaba-qwen3-32b",
+      "file": "benchmark_outputs\\responses_alibaba-qwen3-32b.jsonl",
+      "total_rows": 1245,
+      "extracted_count": 1245,
+      "correct_count": 1020,
+      "accuracy": 0.8192771084337349,
+      "extraction_rate": 1.0,
+      "duplicate_id_lines": 0,
+      "source_counts": {
+        "response_text": 311,
+        "parsed_prediction": 934
+      }
+    },
+    {
+      "model": "deepseek-r1-distill-llama-70b",
+      "file": "benchmark_outputs\\responses_deepseek-r1-distill-llama-70b.jsonl",
+      "total_rows": 1245,
+      "extracted_count": 1245,
+      "correct_count": 914,
+      "accuracy": 0.734136546184739,
+      "extraction_rate": 1.0,
+      "duplicate_id_lines": 0,
+      "source_counts": {
+        "parsed_prediction": 1028,
+        "response_text": 198,
+        "reasoning_content": 19
+      }
+    },
+    {
+      "model": "glm-5",
+      "file": "benchmark_outputs\\responses_glm-5.jsonl",
+      "total_rows": 1245,
+      "extracted_count": 1245,
+      "correct_count": 1242,
+      "accuracy": 0.9975903614457832,
+      "extraction_rate": 1.0,
+      "duplicate_id_lines": 0,
+      "source_counts": {
+        "parsed_prediction": 1243,
+        "reasoning_content": 2
+      }
+    },
+    {
+      "model": "llama3-8b-instruct",
+      "file": "benchmark_outputs\\responses_llama3-8b-instruct.jsonl",
+      "total_rows": 1245,
+      "extracted_count": 1245,
+      "correct_count": 87,
+      "accuracy": 0.06987951807228916,
+      "extraction_rate": 1.0,
+      "duplicate_id_lines": 0,
+      "source_counts": {
+        "parsed_prediction": 1245
+      }
+    },
+    {
+      "model": "llama3.3-70b-instruct",
+      "file": "benchmark_outputs\\responses_llama3.3-70b-instruct.jsonl",
+      "total_rows": 1245,
+      "extracted_count": 1245,
+      "correct_count": 167,
+      "accuracy": 0.13413654618473897,
+      "extraction_rate": 1.0,
+      "duplicate_id_lines": 0,
+      "source_counts": {
+        "parsed_prediction": 1245
+      }
+    },
+    {
+      "model": "minimax-m2.5",
+      "file": "benchmark_outputs\\responses_minimax-m2.5.jsonl",
+      "total_rows": 1245,
+      "extracted_count": 1245,
+      "correct_count": 1235,
+      "accuracy": 0.9919678714859438,
+      "extraction_rate": 1.0,
+      "duplicate_id_lines": 0,
+      "source_counts": {
+        "parsed_prediction": 1239,
+        "reasoning_content": 6
+      }
+    },
+    {
+      "model": "mistral-nemo-instruct-2407",
+      "file": "benchmark_outputs\\responses_mistral-nemo-instruct-2407.jsonl",
+      "total_rows": 1245,
+      "extracted_count": 1245,
+      "correct_count": 120,
+      "accuracy": 0.0963855421686747,
+      "extraction_rate": 1.0,
+      "duplicate_id_lines": 0,
+      "source_counts": {
+        "parsed_prediction": 1245
+      }
+    },
+    {
+      "model": "nvidia-nemotron-3-super-120b",
+      "file": "benchmark_outputs\\responses_nvidia-nemotron-3-super-120b.jsonl",
+      "total_rows": 1245,
+      "extracted_count": 1245,
+      "correct_count": 1227,
+      "accuracy": 0.9855421686746988,
+      "extraction_rate": 1.0,
+      "duplicate_id_lines": 0,
+      "source_counts": {
+        "parsed_prediction": 1242,
+        "reasoning_content": 3
+      }
+    },
+    {
+      "model": "openai-gpt-oss-120b",
+      "file": "benchmark_outputs\\responses_openai-gpt-oss-120b.jsonl",
+      "total_rows": 1245,
+      "extracted_count": 1244,
+      "correct_count": 1229,
+      "accuracy": 0.98714859437751,
+      "extraction_rate": 0.9991967871485944,
+      "duplicate_id_lines": 0,
+      "source_counts": {
+        "parsed_prediction": 1244,
+        "none": 1
+      }
+    },
+    {
+      "model": "openai-gpt-oss-20b",
+      "file": "benchmark_outputs\\responses_openai-gpt-oss-20b.jsonl",
+      "total_rows": 1245,
+      "extracted_count": 1244,
+      "correct_count": 1226,
+      "accuracy": 0.9847389558232932,
+      "extraction_rate": 0.9991967871485944,
+      "duplicate_id_lines": 0,
+      "source_counts": {
+        "parsed_prediction": 1244,
+        "none": 1
+      }
+    },
+    {
+      "model": "mistral-large-2512",
+      "file": "benchmark_outputs_mistral\\responses_mistral-large-2512.jsonl",
+      "total_rows": 1245,
+      "extracted_count": 1229,
+      "correct_count": 160,
+      "accuracy": 0.1285140562248996,
+      "extraction_rate": 0.98714859437751,
+      "duplicate_id_lines": 0,
+      "source_counts": {
+        "parsed_prediction": 1225,
+        "none": 16,
+        "response_text": 4
+      }
+    },
+    {
+      "model": "mistral-medium-2508",
+      "file": "benchmark_outputs_mistral\\responses_mistral-medium-2508.jsonl",
+      "total_rows": 1245,
+      "extracted_count": 1226,
+      "correct_count": 178,
+      "accuracy": 0.1429718875502008,
+      "extraction_rate": 0.9847389558232932,
+      "duplicate_id_lines": 0,
+      "source_counts": {
+        "parsed_prediction": 1226,
+        "none": 19
+      }
+    },
+    {
+      "model": "mistral-small-2603",
+      "file": "benchmark_outputs_mistral\\responses_mistral-small-2603.jsonl",
+      "total_rows": 1245,
+      "extracted_count": 1229,
+      "correct_count": 138,
+      "accuracy": 0.1108433734939759,
+      "extraction_rate": 0.98714859437751,
+      "duplicate_id_lines": 0,
+      "source_counts": {
+        "parsed_prediction": 1229,
+        "none": 16
+      }
+    }
+  ]
+}

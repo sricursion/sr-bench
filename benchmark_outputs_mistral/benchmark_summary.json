@@ -1,0 +1,102 @@
+{
+  "provider": "mistral",
+  "config": {
+    "csv": "mathrulebench_hard_1245.csv",
+    "base_url": "https://api.mistral.ai/v1/",
+    "concurrency_per_model": 8,
+    "max_tokens": 8192,
+    "max_tokens_retry": 16384,
+    "models": [
+      "mistral-large-2512",
+      "mistral-small-2603",
+      "mistral-medium-2508"
+    ],
+    "env_keys": [
+      "MISTRAL1",
+      "MISTRAL2",
+      "MISTRAL3"
+    ]
+  },
+  "per_model_from_disk": [
+    {
+      "model": "mistral-large-2512",
+      "file": "benchmark_outputs_mistral\\responses_mistral-large-2512.jsonl",
+      "accuracy": 0.12771084337349398,
+      "correct": 159,
+      "total_rows": 1245,
+      "empty_response_count": 0,
+      "truncation_finish_count": 4,
+      "error_count": 16,
+      "mean_latency_ms": 1860.1643612693247,
+      "sum_prompt_tokens": 189839,
+      "sum_completion_tokens": 73072
+    },
+    {
+      "model": "mistral-small-2603",
+      "file": "benchmark_outputs_mistral\\responses_mistral-small-2603.jsonl",
+      "accuracy": 0.1108433734939759,
+      "correct": 138,
+      "total_rows": 1245,
+      "empty_response_count": 0,
+      "truncation_finish_count": 0,
+      "error_count": 16,
+      "mean_latency_ms": 1144.2978030919446,
+      "sum_prompt_tokens": 204589,
+      "sum_completion_tokens": 4396
+    },
+    {
+      "model": "mistral-medium-2508",
+      "file": "benchmark_outputs_mistral\\responses_mistral-medium-2508.jsonl",
+      "accuracy": 0.1429718875502008,
+      "correct": 178,
+      "total_rows": 1245,
+      "empty_response_count": 0,
+      "truncation_finish_count": 0,
+      "error_count": 19,
+      "mean_latency_ms": 1505.6378466557912,
+      "sum_prompt_tokens": 189412,
+      "sum_completion_tokens": 4560
+    }
+  ],
+  "session_per_model": [
+    {
+      "model": "mistral-large-2512",
+      "output_file": "benchmark_outputs_mistral\\responses_mistral-large-2512.jsonl",
+      "rows_completed_this_session": 1245,
+      "accuracy_this_session": 0.12771084337349398,
+      "correct_this_session": 159,
+      "empty_response_count_this_session": 0,
+      "truncation_finish_count_this_session": 4,
+      "error_count_this_session": 16,
+      "mean_latency_ms_this_session": 1860.1643612693247,
+      "sum_prompt_tokens_this_session": 189839,
+      "sum_completion_tokens_this_session": 73072
+    },
+    {
+      "model": "mistral-small-2603",
+      "output_file": "benchmark_outputs_mistral\\responses_mistral-small-2603.jsonl",
+      "rows_completed_this_session": 1245,
+      "accuracy_this_session": 0.1108433734939759,
+      "correct_this_session": 138,
+      "empty_response_count_this_session": 0,
+      "truncation_finish_count_this_session": 0,
+      "error_count_this_session": 16,
+      "mean_latency_ms_this_session": 1144.2978030919446,
+      "sum_prompt_tokens_this_session": 204589,
+      "sum_completion_tokens_this_session": 4396
+    },
+    {
+      "model": "mistral-medium-2508",
+      "output_file": "benchmark_outputs_mistral\\responses_mistral-medium-2508.jsonl",
+      "rows_completed_this_session": 1245,
+      "accuracy_this_session": 0.1429718875502008,
+      "correct_this_session": 178,
+      "empty_response_count_this_session": 0,
+      "truncation_finish_count_this_session": 0,
+      "error_count_this_session": 19,
+      "mean_latency_ms_this_session": 1505.6378466557912,
+      "sum_prompt_tokens_this_session": 189412,
+      "sum_completion_tokens_this_session": 4560
+    }
+  ]
+}
