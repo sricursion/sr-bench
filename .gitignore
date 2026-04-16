@@ -1,7 +1,3 @@
-# Response logs (not versioned here)
-benchmark_outputs/**/*.jsonl
-benchmark_outputs_mistral/**/*.jsonl
-
 # Secrets and local junk
 .env
 .env.*
@@ -19,5 +15,3 @@ venv/
 Thumbs.db
 Desktop.ini
 
-# Everything else in this folder is not part of the minimal sr-bench publish
-# (we stage only explicit paths via git add)
